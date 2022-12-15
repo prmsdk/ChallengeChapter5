@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:contentDescription="Slider for Landing Page"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:id="@+id/view_pager"/>
+
+    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+        android:id="@+id/dot3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:dotsColor="@android:color/holo_blue_light"
+        app:dotsSize="15dp"
+        app:dotsSpacing="5dp"
+        android:layout_marginTop="30dp"
+        app:selectedDotColor="@android:color/holo_blue_dark" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-25dp">
+
+        <ImageView
+            android:id="@+id/iv_chevron"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="12dp"
+            app:srcCompat="@drawable/chevron_right" />
+    </RelativeLayout>
+
+</LinearLayout>

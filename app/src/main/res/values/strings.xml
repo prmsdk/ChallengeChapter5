@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ChallengeChapter5</string>
+    <string name="kertas_batu_gunting_text">kertas_batu_gunting_text</string>
+    <string name="icon_kertas_batu_gunting">icon_kertas_batu_gunting</string>
+    <string name="slider_on_boarding">Slider On Boarding</string>
+    <string name="slider_1">"Bermain suit melawan sesama pemain"</string>
+    <string name="slider_2">"Bermain suit melawan komputer"</string>
+    <string name="slider_3">"Tuliskan namamu dibawah"</string>
+    <string name="slider_desk_1">"Selamat datang di Aplikasi Kertas Gunting Batu"</string>
+    <string name="slider_desk_2">"Tersedia 2 mode, vs computer dan vs player 2"</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="batu_player_1">Batu player 1</string>
+    <string name="gunting_player_1">Gunting player 1</string>
+    <string name="kertas_player_1">Kertas player 1</string>
+    <string name="icon_refresh">Icon Refresh</string>
+    <string name="computer">Computer</string>
+    <string name="player_1">Player 1</string>
+</resources>
